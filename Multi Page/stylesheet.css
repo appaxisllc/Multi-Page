@@ -1,0 +1,111 @@
+.body {
+    background-color: gray;
+}
+.medium {
+    text-align: left;
+    background-color: #FFFFF0;
+    padding: 10px;
+}
+.masthead {
+    height: 130px;
+    background-color: black;
+}
+.Animate {
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;  
+    box-shadow: 8px 8px;
+  }
+  
+  @keyframes example {
+    0%   {background-color: lightsalmon; left:0px; top:0px;}
+    25%  {background-color:lightsalmon; left:200px; top:0px;}
+    50%  {background-color: lightsalmon; left:200px; top:200px;}
+    75%  {background-color: lightsalmon; left:0px; top:200px;}
+    100% {background-color: lightsalmon; left:0px; top:0px;}
+  }
+
+   /* All text on page */
+ 
+#Logo {
+    background-color: #BF0A30;
+    width: 100px;
+}
+.medium-words {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto" , sans-serif;
+    font: italic;
+    text-align: center;
+}
+.words {
+    color: #FFFFF0;
+    text-decoration: none;
+    text-align: center;
+    
+}
+a:hover {
+    color: #f0a500;
+}
+.box1 {
+    display: inline-flex;
+    
+    align-items: baseline;
+    height: 130px;
+    width: 190px;
+
+
+}
+.box2 {
+    display: inline-flex;
+
+}
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box4 {
+    display: flex;
+    width: 190px
+    justify-content: flex-end;
+
+}
+.text{
+    width: 10px;
+}
+.search{
+    max-width: 40px;
+}
+.glass {
+    max-height: 20px;
+    background-color: #FFFFF0;
+}
+
+.cart {
+    background-color: #FFFFF0;
+    max-height: 30px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.page {
+    font-family: "Oswald" , sans-serif;
+    height: 100px;
+    width: 33%;
+    color: #FFFFF0;
+    text-decoration: none;
+    text-align: center;
+}
